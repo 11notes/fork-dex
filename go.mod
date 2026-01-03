@@ -1,4 +1,4 @@
-module github.com/dexidp/dex/v2
+module github.com/dexidp/dex
 
 go 1.24.0
 
