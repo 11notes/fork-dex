@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	sqlite3 "github.com/mattn/go-sqlite3"
+	sqlite3 "github.com/glebarez/sqlite"
 
 	"github.com/dexidp/dex/storage"
 )
