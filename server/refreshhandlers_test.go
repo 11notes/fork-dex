@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dexidp/dex/server/internal"
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/server/internal"
+	"github.com/11notes/fork-dex/storage"
 )
 
 func mockRefreshTokenTestStorage(t *testing.T, s storage.Storage, useObsolete bool) {

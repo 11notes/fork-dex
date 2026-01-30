@@ -10,7 +10,7 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/storage"
 )
 
 const (

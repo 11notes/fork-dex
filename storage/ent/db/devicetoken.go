@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/dexidp/dex/storage/ent/db/devicetoken"
+	"github.com/11notes/fork-dex/storage/ent/db/devicetoken"
 )
 
 // DeviceToken is the model entity for the DeviceToken schema.

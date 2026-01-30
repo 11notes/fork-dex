@@ -10,7 +10,7 @@ import (
 
 	sqlite3 "github.com/glebarez/sqlite"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/storage"
 )
 
 // SQLite3 options for creating an SQL db.

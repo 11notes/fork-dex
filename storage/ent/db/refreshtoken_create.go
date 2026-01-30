@@ -10,7 +10,7 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/dexidp/dex/storage/ent/db/refreshtoken"
+	"github.com/11notes/fork-dex/storage/ent/db/refreshtoken"
 )
 
 // RefreshTokenCreate is the builder for creating a RefreshToken entity.

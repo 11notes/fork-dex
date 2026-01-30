@@ -20,8 +20,8 @@ import (
 	dsig "github.com/russellhaering/goxmldsig"
 	"github.com/russellhaering/goxmldsig/etreeutils"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/groups"
+	"github.com/11notes/fork-dex/connector"
+	"github.com/11notes/fork-dex/pkg/groups"
 )
 
 const (

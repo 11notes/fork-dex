@@ -21,9 +21,9 @@ import (
 	"github.com/go-jose/go-jose/v4"
 	"github.com/gorilla/mux"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/server/internal"
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/connector"
+	"github.com/11notes/fork-dex/server/internal"
+	"github.com/11notes/fork-dex/storage"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/dexidp/dex/connector"
+	"github.com/11notes/fork-dex/connector"
 )
 
 // Config holds the configuration parameters for a connector which returns an

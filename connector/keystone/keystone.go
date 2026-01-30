@@ -12,7 +12,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/dexidp/dex/connector"
+	"github.com/11notes/fork-dex/connector"
 )
 
 type conn struct {

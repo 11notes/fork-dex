@@ -1,16 +1,16 @@
-module github.com/dexidp/dex
+module github.com/11notes/fork-dex
 
 go 1.25.0
 
 require (
 	cloud.google.com/go/compute/metadata v0.9.0
 	entgo.io/ent v0.14.5
+	github.com/11notes/fork-dex/api/v2 v2.3.0
 	github.com/AppsFlyer/go-sundheit v0.6.0
 	github.com/Masterminds/semver v1.5.0
 	github.com/Masterminds/sprig/v3 v3.3.0
 	github.com/beevik/etree v1.6.0
 	github.com/coreos/go-oidc/v3 v3.14.1
-	github.com/dexidp/dex/api/v2 v2.3.0
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/glebarez/sqlite v1.11.0
@@ -122,6 +122,6 @@ require (
 	modernc.org/sqlite v1.23.1 // indirect
 )
 
-replace github.com/dexidp/dex/api/v2 => ./api/v2
+replace github.com/11notes/fork-dex/api/v2 => ./api/v2
 
 tool entgo.io/ent/cmd/ent

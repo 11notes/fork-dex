@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-jose/go-jose/v4"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/storage"
 )
 
 // AuthCode is a mirrored struct from storage with JSON struct tags

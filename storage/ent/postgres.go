@@ -15,9 +15,9 @@ import (
 	entSQL "entgo.io/ent/dialect/sql"
 	_ "github.com/lib/pq" // Register postgres driver.
 
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent/client"
-	"github.com/dexidp/dex/storage/ent/db"
+	"github.com/11notes/fork-dex/storage"
+	"github.com/11notes/fork-dex/storage/ent/client"
+	"github.com/11notes/fork-dex/storage/ent/db"
 )
 
 const (

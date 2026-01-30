@@ -1,9 +1,9 @@
 # dex - A federated OpenID Connect provider
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/dexidp/dex/badge?style=flat-square)](https://api.securityscorecards.dev/projects/github.com/dexidp/dex)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dexidp/dex?style=flat-square)](https://goreportcard.com/report/github.com/dexidp/dex)
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/dexidp/dex)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/11notes/fork-dex/badge?style=flat-square)](https://api.securityscorecards.dev/projects/github.com/11notes/fork-dex)
+[![Go Report Card](https://goreportcard.com/badge/github.com/11notes/fork-dex?style=flat-square)](https://goreportcard.com/report/github.com/11notes/fork-dex)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/11notes/fork-dex)
 
 ![logo](docs/logos/dex-horizontal-color.png)
 
@@ -69,7 +69,7 @@ Dex implements the following connectors:
 | ---- | ----------------------- | --------------------- | --------------------------------- | ------ | ----- |
 | [LDAP](https://dexidp.io/docs/connectors/ldap/) | yes | yes | yes | stable | |
 | [GitHub](https://dexidp.io/docs/connectors/github/) | yes | yes | yes | stable | |
-| [SAML 2.0](https://dexidp.io/docs/connectors/saml/) | no | yes | no | stable | WARNING: Unmaintained and likely vulnerable to auth bypasses ([#1884](https://github.com/dexidp/dex/discussions/1884)) |
+| [SAML 2.0](https://dexidp.io/docs/connectors/saml/) | no | yes | no | stable | WARNING: Unmaintained and likely vulnerable to auth bypasses ([#1884](https://github.com/11notes/fork-dex/discussions/1884)) |
 | [GitLab](https://dexidp.io/docs/connectors/gitlab/) | yes | yes | yes | beta | |
 | [OpenID Connect](https://dexidp.io/docs/connectors/oidc/) | yes | yes | yes | beta | Includes Salesforce, Azure, etc. |
 | [OAuth 2.0](https://dexidp.io/docs/connectors/oauth/) | no | yes | yes | alpha | |
@@ -110,10 +110,10 @@ Please see our [security policy](.github/SECURITY.md) for details about reportin
 
 ## Getting help
 
-- For feature requests and bugs, file an [issue](https://github.com/dexidp/dex/issues).
+- For feature requests and bugs, file an [issue](https://github.com/11notes/fork-dex/issues).
 - For general discussion about both using and developing Dex:
     - join the [#dexidp](https://cloud-native.slack.com/messages/dexidp) on the CNCF Slack
-    - open a new [discussion](https://github.com/dexidp/dex/discussions)
+    - open a new [discussion](https://github.com/11notes/fork-dex/discussions)
     - join the [dex-dev](https://groups.google.com/forum/#!forum/dex-dev) mailing list
 
 [openid-connect]: https://openid.net/connect/
@@ -124,8 +124,8 @@ Please see our [security policy](.github/SECURITY.md) for details about reportin
 [kubernetes]: https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens
 [aws-sts]: https://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
 [go-oidc]: https://github.com/coreos/go-oidc
-[issue-1065]: https://github.com/dexidp/dex/issues/1065
-[release-notes]: https://github.com/dexidp/dex/releases
+[issue-1065]: https://github.com/11notes/fork-dex/issues/1065
+[release-notes]: https://github.com/11notes/fork-dex/releases
 
 ## Development
 

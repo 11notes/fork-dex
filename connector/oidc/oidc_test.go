@@ -21,7 +21,7 @@ import (
 	"github.com/go-jose/go-jose/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dexidp/dex/connector"
+	"github.com/11notes/fork-dex/connector"
 )
 
 func TestKnownBrokenAuthHeaderProvider(t *testing.T) {

@@ -5,17 +5,17 @@ package db
 import (
 	"time"
 
-	"github.com/dexidp/dex/storage/ent/db/authcode"
-	"github.com/dexidp/dex/storage/ent/db/authrequest"
-	"github.com/dexidp/dex/storage/ent/db/connector"
-	"github.com/dexidp/dex/storage/ent/db/devicerequest"
-	"github.com/dexidp/dex/storage/ent/db/devicetoken"
-	"github.com/dexidp/dex/storage/ent/db/keys"
-	"github.com/dexidp/dex/storage/ent/db/oauth2client"
-	"github.com/dexidp/dex/storage/ent/db/offlinesession"
-	"github.com/dexidp/dex/storage/ent/db/password"
-	"github.com/dexidp/dex/storage/ent/db/refreshtoken"
-	"github.com/dexidp/dex/storage/ent/schema"
+	"github.com/11notes/fork-dex/storage/ent/db/authcode"
+	"github.com/11notes/fork-dex/storage/ent/db/authrequest"
+	"github.com/11notes/fork-dex/storage/ent/db/connector"
+	"github.com/11notes/fork-dex/storage/ent/db/devicerequest"
+	"github.com/11notes/fork-dex/storage/ent/db/devicetoken"
+	"github.com/11notes/fork-dex/storage/ent/db/keys"
+	"github.com/11notes/fork-dex/storage/ent/db/oauth2client"
+	"github.com/11notes/fork-dex/storage/ent/db/offlinesession"
+	"github.com/11notes/fork-dex/storage/ent/db/password"
+	"github.com/11notes/fork-dex/storage/ent/db/refreshtoken"
+	"github.com/11notes/fork-dex/storage/ent/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

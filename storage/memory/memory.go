@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/storage"
 )
 
 var _ storage.Storage = (*memStorage)(nil)

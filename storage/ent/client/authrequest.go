@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/storage"
 )
 
 // CreateAuthRequest saves provided auth request into the database.

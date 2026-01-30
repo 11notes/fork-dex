@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/groups"
+	"github.com/11notes/fork-dex/connector"
+	"github.com/11notes/fork-dex/pkg/groups"
 )
 
 // Config holds configuration options for Atlassian Crowd connector.

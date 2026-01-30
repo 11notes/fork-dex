@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/storage"
 )
 
 // CreateConnector saves a connector into the database.

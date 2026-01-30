@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/dexidp/dex/storage/ent/db/devicetoken"
-	"github.com/dexidp/dex/storage/ent/db/predicate"
+	"github.com/11notes/fork-dex/storage/ent/db/devicetoken"
+	"github.com/11notes/fork-dex/storage/ent/db/predicate"
 )
 
 // DeviceTokenDelete is the builder for deleting a DeviceToken entity.

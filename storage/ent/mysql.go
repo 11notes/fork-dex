@@ -16,9 +16,9 @@ import (
 	entSQL "entgo.io/ent/dialect/sql"
 	"github.com/go-sql-driver/mysql" // Register mysql driver.
 
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent/client"
-	"github.com/dexidp/dex/storage/ent/db"
+	"github.com/11notes/fork-dex/storage"
+	"github.com/11notes/fork-dex/storage/ent/client"
+	"github.com/11notes/fork-dex/storage/ent/db"
 )
 
 const (
@@ -81,7 +81,7 @@ func (m *MySQL) driver() (*entSQL.Driver, error) {
 	}
 
 	if m.MaxIdleConns == 0 {
-		/* Override default behavior to fix https://github.com/dexidp/dex/issues/1608 */
+		/* Override default behavior to fix https://github.com/11notes/fork-dex/issues/1608 */
 		drv.DB().SetMaxIdleConns(0)
 	} else {
 		drv.DB().SetMaxIdleConns(m.MaxIdleConns)

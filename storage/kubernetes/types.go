@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-jose/go-jose/v4"
 
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/kubernetes/k8sapi"
+	"github.com/11notes/fork-dex/storage"
+	"github.com/11notes/fork-dex/storage/kubernetes/k8sapi"
 )
 
 const (

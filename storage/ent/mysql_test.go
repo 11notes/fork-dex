@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/conformance"
+	"github.com/11notes/fork-dex/storage"
+	"github.com/11notes/fork-dex/storage/conformance"
 )
 
 const (

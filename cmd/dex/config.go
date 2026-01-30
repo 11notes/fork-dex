@@ -12,14 +12,14 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/dexidp/dex/pkg/featureflags"
-	"github.com/dexidp/dex/server"
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent"
-	"github.com/dexidp/dex/storage/etcd"
-	"github.com/dexidp/dex/storage/kubernetes"
-	"github.com/dexidp/dex/storage/memory"
-	"github.com/dexidp/dex/storage/sql"
+	"github.com/11notes/fork-dex/pkg/featureflags"
+	"github.com/11notes/fork-dex/server"
+	"github.com/11notes/fork-dex/storage"
+	"github.com/11notes/fork-dex/storage/ent"
+	"github.com/11notes/fork-dex/storage/etcd"
+	"github.com/11notes/fork-dex/storage/kubernetes"
+	"github.com/11notes/fork-dex/storage/memory"
+	"github.com/11notes/fork-dex/storage/sql"
 )
 
 // Config is the config format for the main application.

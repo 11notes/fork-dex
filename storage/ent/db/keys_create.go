@@ -10,8 +10,8 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent/db/keys"
+	"github.com/11notes/fork-dex/storage"
+	"github.com/11notes/fork-dex/storage/ent/db/keys"
 	jose "github.com/go-jose/go-jose/v4"
 )
 

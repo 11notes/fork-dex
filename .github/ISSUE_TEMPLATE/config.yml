@@ -5,7 +5,7 @@ contact_links:
     about: Suggest an improvement to the documentation
 
   - name: ❓ Ask a question
-    url: https://github.com/dexidp/dex/discussions/new?category=q-a
+    url: https://github.com/11notes/fork-dex/discussions/new?category=q-a
     about: Ask and discuss questions with other Dex community members
 
   - name: 📚 Documentation
@@ -17,5 +17,5 @@ contact_links:
     about: Please ask and answer questions here
 
   - name: 💡 Dex Enhancement Proposal
-    url: https://github.com/dexidp/dex/tree/master/docs/enhancements/README.md
+    url: https://github.com/11notes/fork-dex/tree/master/docs/enhancements/README.md
     about: Open a proposal for significant architectural change

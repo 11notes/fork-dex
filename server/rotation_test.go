@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/memory"
+	"github.com/11notes/fork-dex/storage"
+	"github.com/11notes/fork-dex/storage/memory"
 )
 
 func signingKeyID(t *testing.T, s storage.Storage) string {

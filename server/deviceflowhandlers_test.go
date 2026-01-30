@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/11notes/fork-dex/storage"
 )
 
 func TestDeviceVerificationURI(t *testing.T) {

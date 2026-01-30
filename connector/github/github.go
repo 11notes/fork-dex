@@ -16,9 +16,9 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/github"
 
-	"github.com/dexidp/dex/connector"
-	groups_pkg "github.com/dexidp/dex/pkg/groups"
-	"github.com/dexidp/dex/pkg/httpclient"
+	"github.com/11notes/fork-dex/connector"
+	groups_pkg "github.com/11notes/fork-dex/pkg/groups"
+	"github.com/11notes/fork-dex/pkg/httpclient"
 )
 
 const (
